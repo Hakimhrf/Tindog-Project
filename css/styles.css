@@ -1,0 +1,247 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+/* Title */
+
+#title {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  padding-bottom: 60px;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.title-image {
+  position: absolute;
+  width: 300px;
+  transform: rotate(25deg);
+  right: 25%;
+}
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ffffff;
+  position: relative;
+}
+
+#features h3 {
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+.icons {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+.feature-collumn {
+  padding: 4.5%;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.cards {
+  padding: 3% 2%;
+}
+
+.card-header h3 {
+  font-size: 1.5rem;
+}
+
+.mo {
+  font-weight: 300;
+  color: #8f8f8f;
+}
+
+.card-footer button {
+  background-color: #ef8172;
+  border-color: #ef8172;
+}
+
+.card-footer button:hover {
+  background-color: #ff4c68;
+  border-color: #ff4c68;
+}
+
+.card-footer .btn1 {
+  background-color: white;
+  color: #ff4c68;
+}
+
+.card-footer .btn1:hover {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* CTA */
+
+#cta {
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+#cta h3 {
+  font-size: 2.5rem;
+
+  color: #fff;
+}
+
+.cta-btn {
+  margin-top: 5%;
+  margin-right: 20px;
+}
+
+/* Footer */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.footer-icons a {
+  text-decoration: none;
+  margin: 20px 20px;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+
+.footer-icons a:hover:nth-of-type(1) {
+  color: #00acee;
+}
+.footer-icons a:hover:nth-of-type(2) {
+  color: #4267b2;
+}
+.footer-icons a:hover:nth-of-type(3) {
+  color: #ff4c68;
+}
+.footer-icons a:hover:nth-of-type(4) {
+  color: #f43105;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+  #title {
+    text-align: center;
+  }
+  /* Title image */
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  .titre {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
